@@ -19,9 +19,9 @@ var io_counter = function ioCounter(target_date) {
 		mins_remain = (hours_remain % 1) * 60,
 		seconds_remain = (mins_remain % 1) * 60;
 
-	document.getElementsByClassName('weeks-remain')[0].innerHTML = Math.floor(weeks_remain) + ' Weeks';
-	document.getElementsByClassName('days-remain')[0].innerHTML = Math.floor(days_remain) + ' Days';
-	document.getElementsByClassName('hours-remain')[0].innerHTML = Math.floor(hours_remain) + ' Hours';
-	document.getElementsByClassName('mins-remain')[0].innerHTML = Math.floor(mins_remain) + ' Mins';
-	document.getElementsByClassName('seconds-remain')[0].innerHTML = Math.floor(seconds_remain) + ' Seconds';
+	document.getElementsByClassName('weeks-remain')[0].innerHTML = Math.floor(weeks_remain);
+	document.getElementsByClassName('days-remain')[0].innerHTML = Math.floor(days_remain);
+	document.getElementsByClassName('hours-remain')[0].innerHTML = Math.floor(hours_remain);
+	document.getElementsByClassName('mins-remain')[0].innerHTML = Math.floor(mins_remain);
+	document.getElementsByClassName('seconds-remain')[0].innerHTML = Math.floor(seconds_remain);
 };
