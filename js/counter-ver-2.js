@@ -1,4 +1,4 @@
-var io_date = new Date("April 30 2020 23:59");
+var io_date = new Date("May 15 2020 23:59");
 var io_timer = setInterval(function(){io_counter(io_date)}, 1000);
 
 var io_counter = function ioCounter(target_date) {
